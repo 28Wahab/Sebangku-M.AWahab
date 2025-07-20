@@ -13,23 +13,31 @@
 
 // * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Please contact us to request a removal.
 
-import React from "react";
-import ReactDOM from "react-dom";
-import { HashRouter } from "react-router-dom";
+// Bootstrap mixins and functions
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/mixins";
 
-// core styles
-import "./scss/Dart.scss";
+// Change variables here
+@import "volt/variables";
 
-// vendor styles
-import "react-datetime/css/react-datetime.css";
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
 
-import HomePage from "./pages/HomePage";
-import ScrollToTop from "./components/ScrollToTop";
+// Vendor
+@import "volt/vendor";
 
-ReactDOM.render(
-  <HashRouter>
-    <ScrollToTop />
-    <HomePage />
-  </HashRouter>,
-  document.getElementById("root")
-);
+// volt mixins & functions
+@import "volt/mixins";
+@import "volt/functions";
+
+// Utilities
+@import "volt/reboot";
+@import "volt/utilities";
+
+// Layout
+@import "volt/layout";
+
+// Components
+@import "volt/components";
+
+// write your custom styles here!
