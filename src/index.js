@@ -18,7 +18,7 @@ import ReactDOM from "react-dom";
 import { HashRouter } from "react-router-dom";
 
 // core styles
-import "./scss/Dart.scss";
+import "./scss/dart.scss";
 
 // vendor styles
 import "react-datetime/css/react-datetime.css";
