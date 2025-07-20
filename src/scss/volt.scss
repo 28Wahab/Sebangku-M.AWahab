@@ -1,10 +1,10 @@
 // =========================================================
-// * dart React Dashboard
+// * volt React Dashboard
 // =========================================================
 
-// * Product Page: https://themesberg.com/product/dashboard/dart-react
+// * Product Page: https://themesberg.com/product/dashboard/volt-react
 // * Copyright 2021 Themesberg (https://www.themesberg.com)
-// * Official Repository: https://github.com/themesberg/dart-react-dashboard
+// * Official Repository: https://github.com/themesberg/volt-react-dashboard
 // * License: MIT License (https://themesberg.com/licensing)
 
 // * Designed and coded by https://themesberg.com
@@ -18,26 +18,26 @@
 @import "bootstrap/scss/mixins";
 
 // Change variables here
-@import "dart/variables";
+@import "volt/variables";
 
 // Bootstrap
 @import "bootstrap/scss/bootstrap";
 
 // Vendor
-@import "dart/vendor";
+@import "volt/vendor";
 
-// dart mixins & functions
-@import "dart/mixins";
-@import "dart/functions";
+// volt mixins & functions
+@import "volt/mixins";
+@import "volt/functions";
 
 // Utilities
-@import "dart/reboot";
-@import "dart/utilities";
+@import "volt/reboot";
+@import "volt/utilities";
 
 // Layout
-@import "dart/layout";
+@import "volt/layout";
 
 // Components
-@import "dart/components";
+@import "volt/components";
 
 // write your custom styles here!
